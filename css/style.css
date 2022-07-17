@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  margin-left: 350px;
+  margin-right: 350px;
+  background-color: #91a9aa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.kit-card {
+  max-width: 820px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 0px 29px 9px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 29px 9px rgba(0, 0, 0, 0.1);
+}
+
+.kit-card .text-area {
+  background-color: #ffff;
+  padding: 44px 32px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.kit-card .text-area h1 {
+  color: #373f45;
+  font-family: "Playfair Display", serif;
+  font-weight: 200;
+  font-size: 35px;
+  padding-bottom: 40px;
+}
+
+.kit-card .text-area h2 {
+  color: #373f45;
+  font-family: "Playfair Display", serif;
+  font-weight: 200;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.kit-card .text-area #info {
+  font-size: 17px;
+  color: #697177;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-bottom: 70px;
+}
+
+.kit-card .text-area #email {
+  width: 100%;
+}
+
+.kit-card .text-area #email input {
+  background-color: #f5f6f6;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.kit-card .text-area #email button {
+  width: 100%;
+  border: 0px;
+  border-radius: 2px;
+  background-color: #44858a;
+  color: #ffff;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+.kit-card .text-area #email #privacy {
+  font-size: 13px;
+  text-align: center;
+  color: #697177;
+}
+
+.kit-card .main-img img {
+  max-width: 410px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+/*# sourceMappingURL=style.css.map */
